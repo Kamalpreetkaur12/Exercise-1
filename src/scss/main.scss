@@ -1,0 +1,93 @@
+// This is where you can import other stylesheets or write your scss code
+@import 'variables';
+@import 'typography';
+
+:root {
+  font-family: $primary-font;
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+
+  li {
+    padding: 0 0.5rem;
+  }
+}
+.mb-4 {
+  padding: 1rem;
+  margin: 8% auto;
+
+  img {
+    width: 100%;
+  }
+  h5 {
+    font-size: $small;
+  }
+}
+.card-title {
+  margin: 0 auto;
+}
+
+.d-flex {
+  aside {
+    margin: 1rem;
+    padding: 1rem;
+
+    h3 {
+      margin: 0 auto;
+      padding: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  article {
+    margin: 0;
+    padding: 0 2rem;
+
+    h2 {
+      font-size: $small;
+      margin: 0 auto;
+      padding: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+footer {
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    li {
+      padding: 0.5rem;
+    }
+  }
+}
+
+@import 'layout';
+// changes for Tablet and  Desktop versions are done in Layout file.
+
+// // Custom.scss
+// // Option B: Include parts of Bootstrap
+
+// // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../node_modules/bootstrap/scss/functions";
+
+// // 2. Include any default variable overrides here
+
+// // 3. Include remainder of required Bootstrap stylesheets
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// // 4. Include any optional Bootstrap components as you like
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/images";
+// @import "../node_modules/bootstrap/scss/containers";
+// @import "../node_modules/bootstrap/scss/grid";
+
+// // 5. Add additional custom code here
