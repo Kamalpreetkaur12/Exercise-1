@@ -1,0 +1,195 @@
+h1,
+article {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.card-text,
+a,
+h1,
+aside,
+article {
+  font-family: "Franklin Gothic Medium";
+}
+
+:root {
+  font-family: "Franklin Gothic Medium";
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+}
+.nav li {
+  padding: 0 0.5rem;
+}
+
+.mb-4 {
+  padding: 1rem;
+  margin: 8% auto;
+}
+.mb-4 img {
+  width: 100%;
+}
+.mb-4 h5 {
+  font-size: 2rem;
+}
+
+.card-title {
+  margin: 0 auto;
+}
+
+.d-flex aside {
+  margin: 1rem;
+  padding: 1rem;
+}
+.d-flex aside h3 {
+  margin: 0 auto;
+  padding: 0;
+}
+.d-flex aside p {
+  margin: 0;
+}
+.d-flex article {
+  margin: 0;
+  padding: 0 2rem;
+}
+.d-flex article h2 {
+  font-size: 2rem;
+  margin: 0 auto;
+  padding: 0;
+}
+.d-flex article p {
+  margin: 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+footer ul li {
+  padding: 0.5rem;
+}
+
+nav a {
+  color: #016690;
+}
+
+header {
+  height: 20rem;
+  background-image: url("../../images/header.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.card {
+  background-color: #dad6ab;
+  border: 2px solid #dad6ab;
+  border-radius: 5px;
+}
+.card .img {
+  background-size: cover;
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+}
+
+main aside {
+  border: 2px solid #dad6ab;
+}
+
+footer {
+  background-color: #016690;
+}
+footer a {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  /* Header Styling*/
+  header h1 {
+    padding-top: 2rem;
+  }
+
+  .card {
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card-text {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  .mb-4 {
+    display: flex;
+    padding: 1rem;
+    margin: 2% auto;
+  }
+  .mb-4 img {
+    width: 50%;
+    margin-right: 0.4rem;
+  }
+  .mb-4 h5 {
+    font-size: 2rem;
+  }
+  .mb-4 p {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul {
+    justify-content: flex-end;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  main aside {
+    width: 25%;
+  }
+  main article {
+    width: 50%;
+  }
+
+  .d-flex article {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 70%;
+    margin: 2rem;
+  }
+
+  .mb-4 {
+    width: 40%;
+  }
+  .mb-4 img {
+    width: 200px;
+  }
+
+  .mb-4 h5 {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
